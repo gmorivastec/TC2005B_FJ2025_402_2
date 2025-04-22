@@ -78,7 +78,7 @@ public class EjemploGuardado : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.S))
         {
             Alumno objeto = JsonUtility.FromJson<Alumno>(_jsonObjeto);
-            print(objeto._nombre);
+            //print(objeto._nombre);
         }
 
         if(Input.GetKeyDown(KeyCode.D))
